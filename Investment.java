@@ -1,19 +1,13 @@
 public class Investment {
 
 	private float quantity;
-	private float purchasePrice;
-	private double payFee;
+	private double purchaseTransferenceFee;
 	private double saleTransferenceFee;
+	private floar purchasePrice;
+	private Investor[] investor;
 
-	/**
-	 * 
-	 * @param analyst
-	 * @param share
-	 * @param purchasePrice
-	 * @param salePrice
-	 */
-	public void ProfitLoss(Analyst analyst, Share share, double purchasePrice, double salePrice) {
-		// TODO - implement Investment.ProfitLoss
+	public void profitLoss() {
+		// TODO - implement Investment.profitLoss
 		throw new UnsupportedOperationException();
 	}
 
