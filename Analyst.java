@@ -1,61 +1,30 @@
 public class Analyst {
 
-	private float seedAmount;
-	private float transaction;
-	private String purchaseSaleHistory;
-	private int simulationDay;
-	private float totalProfitLoss;
-	private float stockProfitLossDay;
-	private float stockInvestmentDays;
+	private String name;
+	private String symbolAnalyst;
+	private History history;
 
-	/**
-	 * 
-	 * @param share
-	 * @param investment
-	 */
-	public void Inv(Share share, Investment investment) {
-		// TODO - implement Analyst.Inv
+	public String name() {
+		// TODO - implement Analyst.name
+		throw new UnsupportedOperationException();
+	}
+
+	public String symbolAnalyst() {
+		// TODO - implement Analyst.symbolAnalyst
+		throw new UnsupportedOperationException();
+	}
+
+	public History history() {
+		// TODO - implement Analyst.history
 		throw new UnsupportedOperationException();
 	}
 
 	/**
 	 * 
-	 * @param share
-	 * @param inv
+	 * @param symbol
 	 */
-	public void Pl(Share share, int inv) {
-		// TODO - implement Analyst.Pl
-		throw new UnsupportedOperationException();
-	}
-
-	/**
-	 * 
-	 * @param seedAmount
-	 * @param transaction
-	 * @param share
-	 */
-	public void Game(float seedAmount, Transaction transaction, Share share) {
-		// TODO - implement Analyst.Game
-		throw new UnsupportedOperationException();
-	}
-
-	/**
-	 * 
-	 * @param totalProfitLoss
-	 * @param day
-	 */
-	public void StockProfitLossPerDay(TotalProfitLoss totalProfitLoss, int day) {
-		// TODO - implement Analyst.StockProfitLossPerDay
-		throw new UnsupportedOperationException();
-	}
-
-	/**
-	 * 
-	 * @param saleTime
-	 * @param purchaseTime
-	 */
-	public void StockInvestmentDay(int saleTime, int purchaseTime) {
-		// TODO - implement Analyst.StockInvestmentDay
+	public float stockPerformance(int symbol) {
+		// TODO - implement Analyst.stockPerformance
 		throw new UnsupportedOperationException();
 	}
 
