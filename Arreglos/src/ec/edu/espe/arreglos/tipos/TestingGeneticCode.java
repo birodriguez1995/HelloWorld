@@ -25,7 +25,25 @@ public class TestingGeneticCode {
                 geneticCode[i].setNucleicAcidsSequence("ATT");
             } else {
                 geneticCode[i].setNucleicAcidsSequence("CCG");
-            } 
+            }
+            
         }
+        //Nombres
+        geneticCode[0].setPatient("Pedro");
+        geneticCode[1].setPatient("Miguel");
+        geneticCode[2].setPatient("Benigno");
+        geneticCode[3].setPatient("Ligia");
+        geneticCode[4].setPatient("Nicole");
+        geneticCode[5].setPatient("Gabriel");
+        geneticCode[6].setPatient("Cecilia");
+        geneticCode[7].setPatient("Diana");
+        geneticCode[8].setPatient("Juan");
+        geneticCode[9].setPatient("Manuel");
+        
+        //
+        for(GeneticCode geneticCodes:geneticCode){
+            System.out.println("Patient: " + geneticCodes.getPatient() + "\nId: " + geneticCodes.getId() + "\nNumber of Codons: " + geneticCodes.getCodons()+"\nNitrogenous Bases: "+geneticCodes.getNitrogenousBases()+"\nNucleic Acids Sequence: "+geneticCodes.getNucleicAcidsSequence()+"\nAminoacids Sequence: "+geneticCodes.getAminoacidsSequence());
+            System.out.println("\n");
+        }   
     }
 }
